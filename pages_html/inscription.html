@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    
+</head>
+
+<body>
+    <header>
+        <img src="../image/iit.png" alt="iit logo">
+        <h1>Université Nord Américaine Privée: Institut International de <br> Technologie</h1>
+        <img src="../image/campus.jpg" alt="campus img"> <br>
+        <a href="../index.html"> Actualité </a>
+        <a href="../pages_html/inscription.html"> Inscription </a>
+        <a href="../pages_html/galerie.html"> Galerie </a>
+    </header>
+    <section>
+        <h4>Inscription étudiant</h4>
+        <form>
+            <p>
+                <label for="nom">Nom: </label>
+                <input type="text">
+            </p>     
+            <p>
+                <label for="Prénom">Prénom: </label>
+                <input type="text">
+            </p>
+            <p>
+                <label for="Naissance">Naissance: </label>
+                <input type="date">
+            </p>
+            <p>
+                <label for="sexe">Sexe: </label>
+                <input type="checkbox" id="Masculin"> <label for="Masculin"> Masculin</label>
+                <input type="checkbox" id="Féminin"> <label for="Féminin">Féminin</label>
+            </p>
+            <p>
+                <label for="Pays">Pays: </label>
+                <select name="Pays" id="Pays">
+                    <option value="Tunisia">Tunisie</option>
+                    <option value="France">France</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Mozambique">Mozambique</option>
+                </select>
+            </p>
+            <p>
+                <label for="Language">Language: </label>
+                <input type="checkbox" id="Arabe"> <label for="Arabe"> Arabe</label> <br>
+                <input type="checkbox" id="Francais"> <label for="Francais">Francais</label> <br>
+                <input type="checkbox" id="Anglais"> <label for="Anglais">Anglais</label> <br>
+            </p>
+            <p>
+                <label for="image"> Image : </label>
+                <input type="file" id="image" name="image" accept="image/png,image/jpeg">
+            </p>
+            <p>
+                <input type="submit" value="Envoyer"/>
+            </p>
+        </form>
+    </section>
+    <footer>
+        <p>Route Mharza Km1.5, Sfax <br> Tél : +216 74465020 <br> Mail : contact.iit@iit.tn</p>
+    </footer>
+</body>
+
+</html>
